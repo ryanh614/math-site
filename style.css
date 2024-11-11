@@ -1,0 +1,42 @@
+body {
+    background-color: #bbd2ea;
+    font-family: "Times New Roman", serif;
+    color: #333;
+    /* background-color: #f9f9f9; */
+    
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  h1, h2 {
+    color: #444;
+  }
+
+
+  h1 {
+    text-align: center;
+  } 
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  a {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  section {
+    margin-top: 20px;
+  }
+  
