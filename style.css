@@ -63,11 +63,11 @@ a {
 }
 
 a:hover {
-    color: #FFA500; /* Soft orange hover effect */
+    color: #6BBF59 /* Soft orange hover effect */
 }
 
 button, .accent {
-    background-color: #FFA500; /* Soft orange buttons */
+    background-color: #6BBF59; 
     color: #ffffff; /* White text */
     border: none;
     padding: 10px 20px;
@@ -76,7 +76,7 @@ button, .accent {
 }
 
 button:hover, .accent:hover {
-    background-color: #FF8C00; /* Slightly darker orange */
+    background-color: #6BBF59 
 }
 
 
