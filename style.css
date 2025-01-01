@@ -41,4 +41,14 @@ body {
   section {
     margin-top: 20px;
   }
-  
+
+.linkedin-icon {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.linkedin-icon:hover {
+    transform: scale(1.1);
+}
+
