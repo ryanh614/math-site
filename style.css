@@ -3,7 +3,8 @@ body {
     font-family: "Times New Roman", serif;
     color: #333;
     /* background-color: #f9f9f9; */
-    
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text */
     
     
     margin: 0;
@@ -55,6 +56,29 @@ body {
 a img, a i {
     transition: transform 0.3s ease, color 0.3s ease;
 }
+
+a {
+    color: #0000EE; /* Standard blue links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFA500; /* Soft orange hover effect */
+}
+
+button, .accent {
+    background-color: #FFA500; /* Soft orange buttons */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, .accent:hover {
+    background-color: #FF8C00; /* Slightly darker orange */
+}
+
 
 a img:hover, a i:hover {
     transform: scale(1.1);
