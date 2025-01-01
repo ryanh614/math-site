@@ -52,3 +52,11 @@ body {
     transform: scale(1.1);
 }
 
+a img, a i {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+a img:hover, a i:hover {
+    transform: scale(1.1);
+}
+
