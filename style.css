@@ -84,3 +84,33 @@ a img:hover, a i:hover {
     transform: scale(1.1);
 }
 
+.collapsible {
+  background-color: #0056b3;
+  color: white;
+  cursor: pointer;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.collapsible:hover {
+  background-color: #003d80;
+}
+
+.content {
+  padding: 15px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
+
+/* Add this to fix the shifting issue */
+.research-item, .research-item p {
+  margin-left: 40px;
+}
