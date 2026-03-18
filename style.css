@@ -85,20 +85,23 @@ a img:hover, a i:hover {
 }
 
 .collapsible {
-  background-color: #0056b3;
-  color: white;
+  background-color: var(--content-bg);
+  color: var(--link);
   cursor: pointer;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 5px;
+  padding: 5px 12px;
+  border: 1px solid var(--border);
+  border-radius: 20px;
   text-align: center;
+  font-family: "Times New Roman", serif;
   font-size: 16px;
-  margin-top: 10px;
-  transition: background-color 0.3s;
+  margin-top: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .collapsible:hover {
-  background-color: #003d80;
+  background-color: var(--border);
+  color: var(--link-hover);
 }
 
 .content {
