@@ -62,6 +62,38 @@ body {
     font-family: monospace;
   }
 
+  /* Tech Stack: labeled groups + inline badges */
+  .tech-stack {
+    margin-top: 0.5rem;
+  }
+  .tech-group {
+    margin-bottom: 1.25rem;
+  }
+  .tech-group:last-child {
+    margin-bottom: 0;
+  }
+  .tech-group h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #444;
+    margin: 0 0 0.4rem 0;
+  }
+  .tech-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 0.5rem;
+    line-height: 1.5;
+  }
+  .tech-badge {
+    display: inline-block;
+    font-size: 0.9rem;
+    color: #333;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0.2rem 0.55rem;
+  }
+
 .linkedin-icon {
     width: 50px;
     height: 50px;
